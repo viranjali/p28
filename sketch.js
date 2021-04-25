@@ -47,6 +47,8 @@ function draw() {
 
   background(230);
   //Add code for displaying text here!
+  textSize(30);
+  text("Press Space to get a second Chance to Play!!",60 ,60);
   image(boy ,200,340,200,300);
   
   detectollision(stone,mango1);
